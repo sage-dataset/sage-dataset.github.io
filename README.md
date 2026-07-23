@@ -4,7 +4,10 @@ Project page for **SAGE: Scalable Agentic Grounded Evaluation for Crop Disease D
 
 The largest plant-disease image dataset to date (~839K images, 335 crops, 1,251 disease classes), paired with an automated source-cited symptom-knowledge pipeline and a training-free agentic diagnostic system that produces transparent, step-by-step reasoning traces.
 
+**Accepted at the CVPR 2026 Workshop on Emerging Directions in Data for Multimodal Foundation Models.**
+
 - **Paper:** [`static/paper/paper.pdf`](static/paper/paper.pdf)
+- **arXiv:** https://arxiv.org/abs/2605.09768
 - **Code:** https://github.com/tirtho149/SAGE
 - **Dataset:** https://huggingface.co/datasets/tirtho149/SAGE
 
@@ -15,7 +18,7 @@ The largest plant-disease image dataset to date (~839K images, 335 crops, 1,251 
 
 Iowa State University · New York University
 
-**Status:** Under Review
+**Status:** Accepted — CVPR 2026 Workshop on Emerging Directions in Data for Multimodal Foundation Models
 
 ## Editing the page
 Content lives in `index.html`; assets live in `static/`.
