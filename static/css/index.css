@@ -139,6 +139,14 @@ body {
   font-weight: 600;
   color: #1b5e38;
 }
+.venue-accepted a {
+  color: #1b5e38;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.venue-accepted a:hover {
+  color: #227a48;
+}
 .venue-accepted .tag-accepted {
   display: inline-block;
   background: #e8a33d;
