@@ -353,6 +353,6 @@ img { max-width: 100%; height: auto; }
 .snap:nth-child(3) { transform: rotate(-1deg); margin-top: .4rem; }
 .snap:nth-child(3):hover { transform: rotate(0deg) scale(1.02); }
 .snap img { aspect-ratio: 4 / 3.4; object-fit: cover; }
-.snap:nth-child(3) img { object-position: center 35%; }
+.snap:nth-child(3) img { object-position: center 58%; }
 @media (max-width: 640px) { .snap:nth-child(3) { transform: none; margin-top: 0; } .snap img { aspect-ratio: auto; } }
 .snap:nth-child(1) img { object-position: center 30%; }
