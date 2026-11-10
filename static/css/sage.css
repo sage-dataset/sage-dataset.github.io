@@ -356,3 +356,12 @@ img { max-width: 100%; height: auto; }
 .snap:nth-child(3) img { object-position: center 58%; }
 @media (max-width: 640px) { .snap:nth-child(3) { transform: none; margin-top: 0; } .snap img { aspect-ratio: auto; } }
 .snap:nth-child(1) img { object-position: center 30%; }
+/* full workshop name badge + caption link */
+.pill.venue { max-width: min(100%, 640px); white-space: normal; text-align: center; line-height: 1.35; border-radius: 14px; }
+.pill.venue a { text-decoration: underline; text-decoration-color: rgba(63,143,42,.45); text-underline-offset: 2px; }
+.pill.venue a:hover { color: var(--leaf); }
+.snap .who a { color: var(--field); text-decoration: underline; text-underline-offset: 2px; }
+.snap .who a:hover { color: var(--leaf); }
+/* team: centered rows, including a partial last row */
+.team { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.1rem .9rem; max-width: 900px; margin: 0 auto; }
+.team .member { flex: 0 0 clamp(120px, 17%, 160px); }
